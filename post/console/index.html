@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.9.0">
+<meta charset="utf-8">
+<title>利用 prototype 重写 console 实现前端错误统计捕获 - Welcome!</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="canonical" href="https://yanoo1497.github.io/post/console/">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<meta name="description" content="背景由于业务上的需求，需要对已经写好的旧项目进行 log、warn、error、debug 等的数据进行统计，但是又不希望改动影响到旧代码。 思路主要是利用 js 的原型链，新写一个 console 继承自原始 console 然后对需要统计的方法那边进行重写捕获对应数据。 具体代码实现12345678910111213141516171819202122232425262728293031323">
+<meta name="keywords" content="javascript">
+<meta property="og:type" content="website">
+<meta property="og:title" content="利用 prototype 重写 console 实现前端错误统计捕获">
+<meta property="og:url" content="https://yanoo1497.github.io/post/console/index.html">
+<meta property="og:site_name" content="Welcome!">
+<meta property="og:description" content="背景由于业务上的需求，需要对已经写好的旧项目进行 log、warn、error、debug 等的数据进行统计，但是又不希望改动影响到旧代码。 思路主要是利用 js 的原型链，新写一个 console 继承自原始 console 然后对需要统计的方法那边进行重写捕获对应数据。 具体代码实现12345678910111213141516171819202122232425262728293031323">
+<meta property="og:locale" content="zh">
+<meta property="og:image" content="https://yanoo1497.github.io/avatar.jpg">
+<meta property="og:updated_time" content="2021-06-12T10:38:29.428Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="利用 prototype 重写 console 实现前端错误统计捕获">
+<meta name="twitter:description" content="背景由于业务上的需求，需要对已经写好的旧项目进行 log、warn、error、debug 等的数据进行统计，但是又不希望改动影响到旧代码。 思路主要是利用 js 的原型链，新写一个 console 继承自原始 console 然后对需要统计的方法那边进行重写捕获对应数据。 具体代码实现12345678910111213141516171819202122232425262728293031323">
+<meta name="twitter:image" content="https://yanoo1497.github.io/avatar.jpg">
+<link href="//fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat" rel="stylesheet">
+<link href="/styles.27f292de72d9e7a2cdaf.css" rel="stylesheet">
+<link rel="stylesheet" href="/theme.bda8519206e61787c66a.css">
+<script src="/config.dab963078f0d0bbc8e3d.js"></script>
+</head>
+<body lang="en">
+<is-d2a57d></is-d2a57d>
+<script src="/runtime.9c308a63d02029c20228.js"></script>
+<script src="/polyfills-es5.613d1909ec381c0aefb7.js"></script>
+<script src="/polyfills.23aa31104b29f3163090.js"></script>
+<script src="/main.99f2ed354d17ddb7e297.en.js"></script>
+</body>
+</html>
