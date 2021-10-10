@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.9.0">
+<meta charset="utf-8">
+<title>相同文件压缩后 HASH 值（MD5）大概率不相同解决方案 - Welcome!</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="canonical" href="https://yanoo1497.github.io/post/zip/">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<meta name="description" content="基本背景：工作中遇到的相同资源，压缩成 ZIP 包计算出的 MD5 不一致导致使用热更新时会出现问题。虽然也可以在压缩成 ZIP 包去计算 MD5 但是还是需要了解清楚始末以及对应的解决方案。  问题原因ZIP 压缩过程引入了跟时间相关的变量，改动了文件的 last access time。 为什么有时候又可以相同？ZIP 里存的 access time 只精确到秒（ZIP 文档里写着 acce">
+<meta name="keywords" content="javascript">
+<meta property="og:type" content="website">
+<meta property="og:title" content="相同文件压缩后 HASH 值（MD5）大概率不相同解决方案">
+<meta property="og:url" content="https://yanoo1497.github.io/post/zip/index.html">
+<meta property="og:site_name" content="Welcome!">
+<meta property="og:description" content="基本背景：工作中遇到的相同资源，压缩成 ZIP 包计算出的 MD5 不一致导致使用热更新时会出现问题。虽然也可以在压缩成 ZIP 包去计算 MD5 但是还是需要了解清楚始末以及对应的解决方案。  问题原因ZIP 压缩过程引入了跟时间相关的变量，改动了文件的 last access time。 为什么有时候又可以相同？ZIP 里存的 access time 只精确到秒（ZIP 文档里写着 acce">
+<meta property="og:locale" content="zh">
+<meta property="og:image" content="https://yanoo1497.github.io/avatar.jpg">
+<meta property="og:updated_time" content="2021-10-10T08:39:17.585Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="相同文件压缩后 HASH 值（MD5）大概率不相同解决方案">
+<meta name="twitter:description" content="基本背景：工作中遇到的相同资源，压缩成 ZIP 包计算出的 MD5 不一致导致使用热更新时会出现问题。虽然也可以在压缩成 ZIP 包去计算 MD5 但是还是需要了解清楚始末以及对应的解决方案。  问题原因ZIP 压缩过程引入了跟时间相关的变量，改动了文件的 last access time。 为什么有时候又可以相同？ZIP 里存的 access time 只精确到秒（ZIP 文档里写着 acce">
+<meta name="twitter:image" content="https://yanoo1497.github.io/avatar.jpg">
+<link href="//fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat" rel="stylesheet">
+<link href="/styles.27f292de72d9e7a2cdaf.css" rel="stylesheet">
+<link rel="stylesheet" href="/theme.bda8519206e61787c66a.css">
+<script src="/config.d0732875ab48f3254973.js"></script>
+</head>
+<body lang="en">
+<is-d2a57d></is-d2a57d>
+<script src="/runtime.9c308a63d02029c20228.js"></script>
+<script src="/polyfills-es5.613d1909ec381c0aefb7.js"></script>
+<script src="/polyfills.23aa31104b29f3163090.js"></script>
+<script src="/main.99f2ed354d17ddb7e297.en.js"></script>
+</body>
+</html>
