@@ -2,26 +2,29 @@
 <html lang="en">
 <head><meta name="generator" content="Hexo 3.9.0">
 <meta charset="utf-8">
-<title>JS 执行字符串代码片段的各个方案对比 - Welcome!</title>
+<title>JS 执行字符串代码片段方案 - Welcome!</title>
 <base href="/">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 <link rel="canonical" href="https://yanoo1497.github.io/post/eval-string/">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
+<meta name="description" content="在实际项目中，经常会有需要执行某段动态生成代码表达式的需求。本质上就是动态执行某段 js 代码脚本字符串，当然更多时候只是一个代码表达式。 现存的几种方案new Functionnew Function() 是 JS 自带的创建函数方法，可以接 n 个参数，最后一个参数作为函数体，通过这种方式可以动态创建一个由某个字符串生成的函数。 123// const func = new Function(">
 <meta name="keywords" content="js">
 <meta property="og:type" content="website">
-<meta property="og:title" content="JS 执行字符串代码片段的各个方案对比">
+<meta property="og:title" content="JS 执行字符串代码片段方案">
 <meta property="og:url" content="https://yanoo1497.github.io/post/eval-string/index.html">
 <meta property="og:site_name" content="Welcome!">
+<meta property="og:description" content="在实际项目中，经常会有需要执行某段动态生成代码表达式的需求。本质上就是动态执行某段 js 代码脚本字符串，当然更多时候只是一个代码表达式。 现存的几种方案new Functionnew Function() 是 JS 自带的创建函数方法，可以接 n 个参数，最后一个参数作为函数体，通过这种方式可以动态创建一个由某个字符串生成的函数。 123// const func = new Function(">
 <meta property="og:locale" content="zh">
 <meta property="og:image" content="https://yanoo1497.github.io/avatar.jpg">
-<meta property="og:updated_time" content="2021-10-10T12:51:51.607Z">
+<meta property="og:updated_time" content="2021-10-10T15:33:07.885Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="JS 执行字符串代码片段的各个方案对比">
+<meta name="twitter:title" content="JS 执行字符串代码片段方案">
+<meta name="twitter:description" content="在实际项目中，经常会有需要执行某段动态生成代码表达式的需求。本质上就是动态执行某段 js 代码脚本字符串，当然更多时候只是一个代码表达式。 现存的几种方案new Functionnew Function() 是 JS 自带的创建函数方法，可以接 n 个参数，最后一个参数作为函数体，通过这种方式可以动态创建一个由某个字符串生成的函数。 123// const func = new Function(">
 <meta name="twitter:image" content="https://yanoo1497.github.io/avatar.jpg">
 <link href="//fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat" rel="stylesheet">
 <link href="/styles.27f292de72d9e7a2cdaf.css" rel="stylesheet">
 <link rel="stylesheet" href="/theme.bda8519206e61787c66a.css">
-<script src="/config.d0732875ab48f3254973.js"></script>
+<script src="/config.5bca4a75f1076ccb919d.js"></script>
 </head>
 <body lang="en">
 <is-d2a57d></is-d2a57d>
